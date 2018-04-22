@@ -63,8 +63,7 @@ y = test.loc[:,['lg_win']]
 
 #print(model.predict( X ))
 
-df = pd.read_csv('Documents/GitHub/TinoHacksSmartDubs/input/baseball/team.csv')
-df = df[ df.year == 2015 ]
+df = pd.read_csv('Documents/GitHub/TinoHacksSmartDubs/input/season.csv')
 
 #print( df.head(10) )
 
