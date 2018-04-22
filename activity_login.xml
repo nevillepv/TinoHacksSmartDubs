@@ -13,9 +13,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="22dp"
         android:gravity="center_horizontal"
-        android:text="Login"
+        android:text="Login Screen Design"
         android:textColor="#fff"
-        android:textSize="36sp" />
+        android:textSize="26sp" />
     <ImageButton
         android:id="@+id/user_profile_photo"
         android:layout_width="100dp"
@@ -26,6 +26,7 @@
         android:background="@drawable/user_profile_image_background"
         android:elevation="8dp"
         android:src="@drawable/ic_account_box_24dp" />
+
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -65,14 +66,14 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/password"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:singleLine="true"
                     android:drawableTint="@color/colorPrimary"
-                    android:id="@+id/password"
                     android:hint="Password"
-                    android:inputType="textPassword" />
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
             <TextView
